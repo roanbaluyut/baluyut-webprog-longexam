@@ -2,9 +2,9 @@ import Button from '../components/Button';
 
 const NotFoundPage = () => {
   return (
-    <div className="flex w-full flex-col gap-6">
-      <section className="border-y-2 border-zinc-900 bg-zinc-50 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
-        <div className="max-w-3xl">
+    <div className="flex w-full flex-col gap-16">
+      <section className="border-y-2 border-zinc-900 bg-zinc-50 px-4 py-6 sm:px-6 sm:py-8 lg:px-8 justify-center">
+        <div className="mx-auto max-w-3xl items-center text-center">
           <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-500">
             Error
           </p>
@@ -14,7 +14,7 @@ const NotFoundPage = () => {
           <p className="mt-4 text-lg leading-7 text-zinc-600">
             Page not found. The page you're looking for doesn't exist or has been moved.
           </p>
-          <div className="mt-6 flex gap-3">
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
             <Button to="/">Back Home</Button>
             <Button to="/products">View Products</Button>
           </div>
@@ -22,13 +22,13 @@ const NotFoundPage = () => {
       </section>
 
       <section className="border-y-2 border-zinc-900 bg-zinc-50 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
-        <div className="max-w-3xl">
+        <div className="mx-auto max-w-3xl items-center text-center">
           <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-500">
             Quick Links
           </p>
           <h2 className="mt-2 text-2xl font-semibold text-zinc-900">Explore the site</h2>
           
-          <div className="mt-6 space-y-3">
+          <div className="grid grid-cols-1 gap-8 mt-6 sm:grid-cols-2">
             <div className="rounded-3xl border-2 border-zinc-900 bg-zinc-100 p-4">
               <h3 className="font-semibold text-zinc-900">Home</h3>
               <p className="mt-1 text-sm text-zinc-600">Return to the homepage</p>

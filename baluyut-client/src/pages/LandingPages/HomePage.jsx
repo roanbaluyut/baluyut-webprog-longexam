@@ -13,11 +13,11 @@ const HomePage = () => {
                 <div className="absolute inset-0 bg-zinc-900/45" />
 
                 <div className="relative z-10 flex min-h-[22rem] items-start justify-end text-right sm:min-h-[24rem]">
-                    <div className="max-w-xl">
+                    <div className="max-w-3xl">
                         <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-200">
                             Campus Marketplace
                         </p>
-                        <h1 className="text-3xl font-bold leading-tight text-zinc-50 sm:text-4xl">
+                        <h1 className="text-4xl sm:text-5xl font-bold leading-tight text-zinc-50">
                             Welcome to BulldogEx Shop
                         </h1>
                         <p className="mt-4 text-sm leading-7 text-zinc-100 sm:text-base">
@@ -41,7 +41,7 @@ const HomePage = () => {
                     <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-500">
                         Store Overview
                     </p>
-                    <h2 className="mt-2 text-2xl font-semibold text-zinc-900">Quick shopping blocks</h2>
+                    <h2 className="mt-2 text-2xl sm:text-3xl font-semibold text-zinc-900">Quick shopping blocks</h2>
                 </div>
 
                 <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -77,38 +77,41 @@ const HomePage = () => {
                     <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-500">
                         Shop Sections
                     </p>
-                    <h2 className="mt-2 text-2xl font-semibold text-zinc-900">Simple store cards</h2>
+                    <h2 className="mt-2 text-2xl sm:text-3xl font-semibold text-zinc-900">Simple store cards</h2>
                 </div>
 
                 <div className="grid gap-4 md:grid-cols-3">
                     <article className="rounded-3xl border-2 border-zinc-900 bg-zinc-100 p-4">
-                        <div className="flex aspect-4/3 items-center justify-center rounded-[1.25rem] bg-zinc-200">
-                            <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
-                        </div>
+                        <img src="https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/5f942f5186cd48d59b250a81a68c15bc~tplv-o3syd03w52-crop-webp:1200:1200.webp?dr=15592&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=e1be8f53&idc=my3&from=2378011839" 
+                            alt="" 
+                            className="rounded-[1.25rem] object-cover" 
+                        />
                         <h3 className="mt-4 text-lg font-semibold text-zinc-900">Daily Essentials</h3>
-                        <p className="mt-3 text-sm leading-6 text-zinc-600">
+                        <p className="mt-3 text-sm sm:text-base leading-6 text-zinc-600">
                             Bags, tumblers, lanyards, and items used every school day.
                         </p>
                         <Button to="/products" className="mt-4" variant="primary">View Products</Button>
                     </article>
 
                     <article className="rounded-3xl border-2 border-zinc-900 bg-zinc-100 p-4">
-                        <div className="flex aspect-4/3 items-center justify-center rounded-[1.25rem] bg-zinc-200">
-                            <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
-                        </div>
+                        <img src="https://www.akari.store/cdn/shop/files/ADL-1978NU_223df167-c502-4a3d-9aa5-0491240487b2.png?v=1728974422&width=1445" 
+                            alt="" 
+                            className="rounded-[1.25rem] object-cover" 
+                        />
                         <h3 className="mt-4 text-lg font-semibold text-zinc-900">Study Supplies</h3>
-                        <p className="mt-3 text-sm leading-6 text-zinc-600">
+                        <p className="mt-3 text-sm sm:text-base leading-6 text-zinc-600">
                             Notes, desk tools, and study kits for class and review weeks.
                         </p>
                         <Button to="/products" className="mt-4" variant="primary">Shop Supplies</Button>
                     </article>
 
                     <article className="rounded-3xl border-2 border-zinc-900 bg-zinc-100 p-4">
-                        <div className="flex aspect-4/3 items-center justify-center rounded-[1.25rem] bg-zinc-200">
-                            <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
-                        </div>
+                        <img src="https://varsitylifestyleco.com/cdn/shop/files/JACKETNU1.jpg?v=1698131883&width=600" 
+                            alt="" 
+                            className="rounded-[1.25rem] object-cover" 
+                        />
                         <h3 className="mt-4 text-lg font-semibold text-zinc-900">Campus Apparel</h3>
-                        <p className="mt-3 text-sm leading-6 text-zinc-600">
+                        <p className="mt-3 text-sm sm:text-base leading-6 text-zinc-600">
                             Comfortable pieces for class days, commute days, and weekends.
                         </p>
                         <Button to="/products" className="mt-4" variant="primary">

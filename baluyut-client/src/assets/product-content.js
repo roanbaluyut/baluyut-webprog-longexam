@@ -1,0 +1,108 @@
+const products = [
+  {
+    name: 'NU Varsity Jacket',
+    title: 'NU Varsity Jacket',
+    image: 'https://varsitylifestyleco.com/cdn/shop/files/JACKETNU1.jpg?v=1698131883&width=600',
+    category: 'Apparel',
+    price: 'PHP 2,250',
+    stock: 'In stock',
+    content: [
+      'A soft everyday hoodie with a relaxed fit for classrooms, commute days, and weekends.',
+      'The heavy cotton blend keeps structure while staying comfortable for regular wear.',
+      'Available through preorder so sizes can be reserved before release.',
+    ],
+  },
+  {
+    name: 'NU Sweat Shirt',
+    title: 'NU Sweat Shirt',
+    image: 'https://varsitylifestyleco.com/cdn/shop/files/NU1_0a9fa5ee-7c5a-40ee-a720-895a71714984.jpg?v=1701306588&width=600',
+    category: 'Apparel',
+    price: 'PHP 1,750',
+    stock: 'In stock',
+    content: [
+      'A soft everyday hoodie with a relaxed fit for classrooms, commute days, and weekends.',
+      'The heavy cotton blend keeps structure while staying comfortable for regular wear.',
+      'Available through preorder so sizes can be reserved before release.',
+    ],
+  },
+  {
+    name: 'National University | Gray Sweatshirt',
+    title: 'National University | Gray Sweatshirt',
+    image: 'https://varsitylifestyleco.com/cdn/shop/files/NU_1_3f436c59-5a59-464c-a0f1-16aee5b27f00.jpg?v=1772768368&width=600',
+    category: 'Apparel',
+    price: 'PHP 1,750',
+    stock: 'Low stock',
+    content: [
+      'A soft everyday hoodie with a relaxed fit for classrooms, commute days, and weekends.',
+      'The heavy cotton blend keeps structure while staying comfortable for regular wear.',
+      'Available through preorder so sizes can be reserved before release.',
+    ],
+  },
+  {
+    name: 'NU Lady Bulldogs | Womens Volleyball Back-to-Back Champ Shirt UAAPSeason87',
+    title: 'NU Lady Bulldogs | Womens Volleyball Back-to-Back Champ Shirt UAAPSeason87',
+    image: 'https://varsitylifestyleco.com/cdn/shop/files/NU_WVT_Champ_Shirt_white_Front_Mockup_1.jpg?v=1747275184&width=600',
+    category: 'Apparel',
+    price: 'PHP 900',
+    stock: 'In stock',
+    content: [
+      'Wear the pride as the lady bulldogs reigning champion.',
+      'A comfortable shirt with a bold design to celebrate the volleyball team’s back-to-back championship wins.',
+      'Good quality print and fabric for a shirt that can be worn to games, classes, or casual days.',
+    ],
+  },
+  {
+    name: 'Baseball | NU T-Shirt',
+    title: 'Baseball | NU T-Shirt',
+    image: 'https://varsitylifestyleco.com/cdn/shop/files/NU_1_2bf9a50d-aada-420f-8444-a701f1181712.jpg?v=1743756190&width=600',
+    category: 'Apparel',
+    price: 'PHP 800',
+    stock: 'Preorder',
+    content: [
+      'Support the baseball team with this classic tee featuring a vintage-inspired design.',
+      'A comfortable and breathable shirt perfect for cheering on the team during games or for casual wear.',
+      'Available through preorder so sizes can be reserved before release.',
+    ],
+  },
+  {
+    name: 'NU Est. 1900 Cap',
+    title: 'NU Est. 1900 Cap',
+    image: 'https://varsitylifestyleco.com/cdn/shop/files/NU1_1.jpg?v=1701937680&width=600',
+    category: 'Accessories',
+    price: 'PHP 950',
+    stock: 'In stock',
+    content: [
+      'A classic cap with a structured fit and adjustable strap for a comfortable and secure fit.',
+      'Shows off NU pride with a clean design that can be worn to games, classes, or casual days.',
+      'Quality materials and construction for a durable accessory that can be worn season after season.',
+    ],
+  },
+  {
+    name: 'NU | Lanyard',
+    title: 'NU | Lanyard',
+    image: 'https://varsitylifestyleco.com/cdn/shop/files/NULanyard.jpg?v=1696322430&width=600',
+    category: 'Accessories',
+    price: 'PHP 250',
+    stock: 'In stock',
+    content: [
+      'Be ready for classes, events, and campus life with this durable lanyard featuring the NU logo.',
+      'Attend classes, events, and campus activities with a lanyard that combines functionality and school spirit.',
+      'Simple enough for daily use and sturdy enough.',
+    ],
+  },
+  {
+    name: 'NU | Baller',
+    title: 'NU | Baller',
+    image: 'https://varsitylifestyleco.com/cdn/shop/files/NUBaller.jpg?v=1695700861&width=600',
+    category: 'Accessories',
+    price: 'PHP 100',
+    stock: 'In stock',
+    content: [
+      'A simple accessory that adds a touch of NU pride.',
+      'Versatile and easy to wear, this baller can be used as a keychain, bag charm, or decorative piece to show off your school spirit.',
+      'Built with quality materials for durability, making it a long-lasting accessory that can be enjoyed for years to come.',
+    ],
+  },
+];
+
+export default products;

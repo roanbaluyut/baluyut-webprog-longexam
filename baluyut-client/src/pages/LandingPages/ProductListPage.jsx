@@ -9,7 +9,7 @@ const ProductListPage = () => {
         <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-500">
           Products
         </p>
-        <h1 className="max-w-xl text-3xl font-bold leading-tight text-zinc-900 sm:text-4xl">
+        <h1 className="font-montserrat max-w-3xl text-4xl sm:text-5xl font-bold leading-tight text-zinc-900">
           Shop campus essentials in a simple product grid
         </h1>
         <p className="mt-4 max-w-lg text-sm leading-7 text-zinc-600 sm:text-base">

@@ -5,6 +5,8 @@ const links = [
   { label: 'Home', to: '/' },
   { label: 'About', to: '/about' },
   { label: 'Products', to: '/products' },
+  { label: 'Sign In', to: '/auth/signin' },
+  { label: 'Sign Up', to: '/auth/signup' }, 
 ];
 
 const navLinkClassName = ({ isActive }) =>
@@ -18,10 +20,10 @@ const navLinkClassName = ({ isActive }) =>
 const NavBar = () => {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b-2 border-zinc-900 bg-zinc-100/95 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
-        <NavLink to="/" className="flex items-center gap-3">
-          <img src={logo} alt="BulldogEx" className="h-9 w-9 rounded-full border-2 border-zinc-900 bg-zinc-50 object-contain" />
-          <div className="space-y-0.5">
+      <div className="mx-auto flex max-w-6xl justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
+        <NavLink to="/" className="flex items-center gap-3 group">
+          <img src={logo} alt="BulldogEx" className="h-14 w-14 rounded-full border-2 border-zinc-900 bg-zinc-50 object-contain" />
+          <div className="space-y-1">
             <p className="text-xl font-bold text-zinc-900">BulldogEx Shop</p>
           </div>
         </NavLink>
@@ -32,7 +34,7 @@ const NavBar = () => {
               {link.label}
             </NavLink>
           ))}
-        </nav>  
+        </nav>
       </div>
     </header>
   );
